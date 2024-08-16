@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+/* Adjust the app container in App.css or similar */
+.app-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}

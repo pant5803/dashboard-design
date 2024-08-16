@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import { dividerClasses } from '@mui/material';
+import logo from "./logo.svg";
+import "./App.css";
+import { dividerClasses } from "@mui/material";
+import ModuleColumn from "./components/ModuleColumn";
 
 function App() {
   return (
-    <div>
-      Dashboard
-    </div>
+    <>
+      <div className="container mt-5">
+        <ModuleColumn />
+      </div>
+      <div>Dashboard</div>
+    </>
   );
 }
 
