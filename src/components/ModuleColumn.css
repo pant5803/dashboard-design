@@ -1,48 +1,6 @@
 /* src/components/ModuleColumn.css */
 .module-container {
   display: flex;
-  justify-content: flex-start; /* Align the module on the left side */
-  padding: 20px;
-}
-
-.module-block {
-  background-color: #f0f0f0;
-  border-radius: 10px;
-  padding: 20px;
-  width: auto; /* Fixed width for the module block */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.module-grid {
-  display: grid;
-  grid-template-columns: 1fr; /* Single column layout */
-  gap: 10px; /* Spacing between blocks */
-}
-
-.module-card {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 15px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.module-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.icon {
-  font-size: 1.5rem;
-}
-/* src/components/ModuleColumn.css */
-.module-container {
-  display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 20px;
